@@ -15,6 +15,8 @@ class Post extends Model
     // Only these atributes are allowed to be MASS ASIGNED
     // protected $fillable = ['title', 'excerpt', 'body'];
 
+    protected $with = ['category', 'author'];
+
 
     /*public function getRouteKeyName() {
         return 'slug';
