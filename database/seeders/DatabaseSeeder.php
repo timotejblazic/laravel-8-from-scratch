@@ -20,8 +20,6 @@ class DatabaseSeeder extends Seeder
         $user = User::factory()->create([
             'name' => 'John Doe'
         ]);
-        Post::factory(30)->create([
-            'user_id' => $user->id
-        ]);
+        Post::factory(30)->create();
     }
 }
