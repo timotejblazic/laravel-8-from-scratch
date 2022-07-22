@@ -8,8 +8,8 @@
 
                 <x-form.input name="name" type="text" />
                 <x-form.input name="username" type="text" />
-                <x-form.input name="email" type="text" />
-                <x-form.input name="password" type="text" />
+                <x-form.input name="email" type="email" />
+                <x-form.input name="password" type="password" />
 
                 <x-form.button>Register</x-form.button>
             </form>
